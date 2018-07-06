@@ -1,0 +1,14 @@
+{{#each movie}}
+
+<div>
+<span>{{this.title}}</span>
+<span>{{this.director}}</span>
+<span>{{this.stars}}</span>
+<span>{{this.image}}</span>
+<span>{{this.description}}</span>
+<span>{{this.showtimes}}</span>
+</div>
+
+<a href="/movies/{{this.id}}">See More</a>
+
+{{/each}}
